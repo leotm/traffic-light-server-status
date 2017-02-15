@@ -1,0 +1,118 @@
+input {
+	width: 310px;
+	margin: 0px 10px 20px 10px;
+}
+
+input:valid {
+  padding-left: 4px;
+}
+
+button {
+	width: 150px;
+	margin: 10px 0;
+}
+
+ul > div {
+  display: inline-block;
+}
+
+ul {
+	list-style: none;
+	margin-top: 0px;
+	padding-left: 0px;
+}
+
+li {
+	margin-left: 10px;
+  margin-right: 5px;
+}
+
+p {
+  margin-top: 0px;
+}
+.url {
+  text-align: center;
+  font-size: smaller;
+}
+
+.traffic-light {
+	width: 150px;
+	height: 250px;
+	border: 1px solid black;
+	background: black;
+}
+
+/* Dim */
+.red-200 {
+	position: relative;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	top: 5%;
+	opacity: 0.2;
+}
+
+/* Illuminate */
+.green-200 {
+	position: relative;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background: green;
+	border-radius: 50%;
+	top: 15%;
+	opacity: 1;
+}
+
+/* Illuminate and start flashing */
+.red-error {
+	position: relative;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background: red;
+	border-radius: 50%;
+	top: 5%;
+	opacity: 1;
+  -webkit-animation: flash 1s infinite; /* Safari 4+ */
+  -moz-animation:    flash 1s infinite; /* Fx 5+ */
+  -o-animation:      flash 1s infinite; /* Opera 12+ */
+  animation:         flash 1s infinite; /* IE 10+, Fx 29+ */
+}
+
+/* Dim */
+.green-error {
+	position: relative;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	background: green;
+	border-radius: 50%;
+	top: 15%;
+	opacity: 0.4;
+}
+
+/* Flash animation */
+
+/* Safari 4+ */
+@-webkit-keyframes flash {
+  0%   { opacity: 1; }
+  100% { opacity: .1; }
+}
+/* Fx 5+ */
+@-moz-keyframes flash {
+  0%   { opacity: 1; }
+  100% { opacity: .1; }
+}
+/* Opera 12+ */
+@-o-keyframes flash {
+  0%   { opacity: 1; }
+  100% { opacity: .1; }
+}
+/* IE 10+, Fx 29+ */
+@keyframes flash {
+  0%   { opacity: 1; }
+  100% { opacity: .1; }
+}
