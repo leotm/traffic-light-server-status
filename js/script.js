@@ -36,7 +36,7 @@ class TrafficLight {
 	 */
 	startInterval() {
 		this.checkURL();
-		this.interval = setInterval(() => this.checkURL(this.url), 10000999);
+		this.interval = setInterval(() => this.checkURL(this.url), 10000);
 	}
 
 	/**
