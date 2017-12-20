@@ -10,4 +10,6 @@ In object-oriented JavaScript, and using HTML, CSS and preferably jQuery, create
 - The object should include a function for triggering fetching the URL, which can be executed via the JavaScript console or via a future button onclick handler.
 
 ## Demo
+In Chrome, [temporarily enable cross-origin resource sharing](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi?hl=en).
+
 [Run](https://rawgit.com/leotm/traffic-light-server-status/master/index.html)
